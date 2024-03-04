@@ -1,0 +1,19 @@
+{
+    "Aula": {
+        "Aula1": {
+            "Professor": "Jonas",
+            "Assunto": "S202",
+            "Alunos": ["Julia", "Gabriel", "Bruna", "João"]
+        },
+        "Aula2": {
+            "Professor": "Alberto",
+            "Assunto": "S233",
+            "Alunos": ["Fernanda", "Francisco", "Bruna", "João"]
+        },
+        "Aula3": {
+            "Professor": "Jucelino",
+            "Assunto": "S233",
+            "Alunos": ["Julia", "Gabriel", "Francisco", "Fernanda"]
+        }
+    }
+}
