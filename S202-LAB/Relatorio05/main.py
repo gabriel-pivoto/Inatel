@@ -46,7 +46,7 @@ def main_menu():
         '2': read_book_by_id,
         '3': update_book,
         '4': delete_book,
-        '5': lambda: (print("Exiting..."), exit())
+        '5': lambda: 5(print("Exiting..."), exit())
     }
     
     while True:

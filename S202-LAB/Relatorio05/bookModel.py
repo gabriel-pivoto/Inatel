@@ -5,13 +5,13 @@ class BookModel:
     def __init__(self, database):
         self.db = database
 
-    def create_book(self, titulo:str, autor:str, ano: int, preco:float):
+    def create_book(self, title:str, author:str, year: int, price:float):
         try:
             res = self.db.collection.insert_one({
-                "titulo": titulo,
-                "autor": autor,
-                "ano": ano,
-                "preco": preco,
+                "title": title,
+                "author": author,
+                "year": year,
+                "price": price,
             })
             print(f"Book created with id: {res.inserted_id}")
             return res.inserted_id
@@ -28,13 +28,13 @@ class BookModel:
             print(f"An error occurred while reading book: {e}")
             return None
 
-    def update_book(self, id: str, titulo:str, autor:str, ano: int, preco:float):
+    def update_book(self, id: str, title:str, author:str, year: int, price:float):
         try:
             res = self.db.collection.update_one({"_id": ObjectId(id)}, {"$set": {
-                "titulo": titulo,
-                "autor": autor,
-                "ano": ano,
-                "preco": preco,
+                "title": title,
+                "author": author,
+                "year": year,
+                "price": price,
             }})
             print(f"Book updated: {res.modified_count} document(s) modified")
             return res.modified_count

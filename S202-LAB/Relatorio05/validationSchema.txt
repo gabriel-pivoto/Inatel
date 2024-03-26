@@ -1,29 +1,29 @@
 {
-  $jsonSchema: {
-    bsonType: 'object',
-    required: [
-      'titulo',
-      'autor',
-      'ano',
-      'preco'
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "title",
+      "author",
+      "year",
+      "price"
     ],
-    properties: {
-      titulo: {
-        bsonType: 'string',
-        description: 'deve ser uma string'
+    "properties": {
+      "title": {
+        "bsonType": "string",
+        "description": "must be a string"
       },
-      autor: {
-        bsonType: 'string',
-        maximum: 2024,
-        description: 'deve ser uma string'
+      "author": {
+        "bsonType": "string",
+        "maximum": 2024,
+        "description": "must be a string"
       },
-      ano: {
-        bsonType: 'int',
-        description: 'deve ser um inteiro'
+      "year": {
+        "bsonType": "int",
+        "description": "must be an integer"
       },
-      preco: {
-        bsonType: 'double',
-        description: 'deve ser um double'
+      "price": {
+        "bsonType": "double",
+        "description": "must be a double"
       }
     }
   }
