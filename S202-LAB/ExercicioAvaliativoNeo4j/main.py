@@ -3,9 +3,9 @@ from database import Database
 from query import Queries
 
 def main():
-    uri = "neo4j+s://5e421e97.databases.neo4j.io"
-    user = "neo4j"
-    password = "R2O34JzDB1SWghehmV5FYcnKX17jzJy7Got3gi2TyPM" 
+    uri = "xxxxxxxxxxxxxxxxxxxxx"
+    user = "xxxxxxxxxxxxxxxxxxxxxx"
+    password = "xxxxxxxxxxxxxxxxxxx" 
     db = Database(uri, user, password)
     teacher_crud = TeacherCRUD(db)
     query = Queries(db)
