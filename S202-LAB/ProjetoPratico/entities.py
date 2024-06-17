@@ -10,15 +10,6 @@ class Professor:
         self.subject = subject
         self.classes = []
 
-    def add_class(self, classroom):
-        self.classes.append(classroom.class_name)
-
-    def remove_class(self, class_name):
-        self.classes.remove(class_name)
-
-    def list_classes(self):
-        return self.classes
-
 class Classroom:
     def __init__(self, class_name, semester, professor):
         self.class_name = class_name
