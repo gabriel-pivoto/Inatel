@@ -1,0 +1,17 @@
+{
+  "name": "s206---l1",
+  "version": "1.0.0",
+  "description": "Repositório para a matéria de S206-L1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.6.1"
+  }
+}

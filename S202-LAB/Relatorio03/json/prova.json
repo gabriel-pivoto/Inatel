@@ -1,0 +1,68 @@
+
+
+[{
+    "_id": {
+        "$oid": "id criado pelo banco aqui"
+    },
+    
+    "id": 1,
+    "nome": "item1",
+    "preco": 12,
+    "peso": 10, 
+    "volume": 20,
+    "tipo_item":"magico",
+    "tipo_magico":[
+        "venenoso", 
+        "sanguinario"
+    ]  
+    
+},
+
+{
+    
+        "_id": {
+            "$oid": "id criado pelo banco aqui"
+        },
+        "id": 2,
+        "nome": "item0",
+        "preco": 21,
+        "peso": 2, 
+        "volume": 3,
+        "tipo_item":"comum",
+        "tipo_magico":[
+            "cura",
+            "regeneracao"
+        ]  
+},
+{
+    
+    "_id": {
+        "$oid": "id criado pelo banco aqui"
+    },
+    "id": 2,
+    "nome": "item2",
+    "preco": 21,
+    "peso": 2, 
+    "volume": 3,
+    "tipo_item":"inventario",
+    "classe": "facas",
+    "dano": 23
+    
+},
+{
+    
+    "_id": {
+        "$oid": "id criado pelo banco aqui"
+    },
+    "id": 2,
+    "nome": "item3",
+    "preco": 21,
+    "peso": 2, 
+    "volume": 3,
+    "tipo_item":"arma",
+    "classe": "foice",
+    "dano": 22
+    
+}
+           
+]

@@ -1,0 +1,18 @@
+1. Quantas suítes de testes você desenvolveu?
+Foram desenvolvidas uma suítes de testes
+
+2. Os testes desenvolvidos são manuais ou automatizados?
+São testes automatizados
+
+3. Onde os testes se localizam na pirâmide apresentada?
+Os testes parecem ser principalmente de nível de integração ou API, 
+já que estão interagindo diretamente com a API e verificando os resultados.
+
+4. Os testes desenvolvidos são funcionais ou não-funcionais?
+Os testes desenvolvidos são principalmente funcionais, pois estão verificando o comportamento e os resultados funcionais da API.
+
+5. Alguns dos testes desenvolvidos são testes Fim-a-Fim(End-To-End)?
+Como são teste de integração como está testando só a API, e2e precisa de mais partes envolvidas.
+6. O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+Utiliza-los toda vez que houver alterações de códigos e com determinada frequência, para ver se houve alterações na API e na
+entrega que seria feita para o "Cliente"
